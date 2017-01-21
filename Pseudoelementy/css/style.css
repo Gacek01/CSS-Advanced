@@ -22,3 +22,22 @@
 p::selection {
 	background-color: crimson;
 }
+
+a:hover {
+	color: chartreuse;
+}
+
+
+/*focus nadpisuje pseudoklasę active*/
+
+a:focus {
+	color: chocolate;
+}
+
+a#p1:target {
+	background-color: red;
+}
+
+p:lang(en) {
+	font-style: italic;
+}
