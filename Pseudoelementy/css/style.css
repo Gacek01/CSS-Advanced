@@ -41,3 +41,15 @@ a#p1:target {
 p:lang(en) {
 	font-style: italic;
 }
+
+.klient:nth-child(odd) {
+	background-color: deepskyblue;
+}
+
+.klient:nth-child(even) {
+	background-color: lightskyblue;
+}
+
+.klient:nth-child(5n+2) {
+	background-color: coral;
+}
